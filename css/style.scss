@@ -186,7 +186,13 @@ a:focus {
     }
   }
 }
-
+.nav_logout-btn {
+  display: block !important;
+  color: white;
+  background-color: rgb(3, 0, 0); /* Tạo màu để dễ thấy */
+  padding: 8px 12px;
+  border-radius: 5px;
+}
 .custom_nav-container .nav_search-btn {
   width: 35px;
   height: 35px;

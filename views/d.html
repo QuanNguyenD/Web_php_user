@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Murkoff Corporation</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://img4.thuthuatphanmem.vn/uploads/2020/07/05/background-y-te-va-bac-si_034617240.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .login-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      height: 100vh;
+      padding-left: 15%;
+      max-width: 500px;
+    }
+
+    .login-logo img {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #0074D9;
+      font-weight: bold;
+      font-size: 36px;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    input {
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #0074D9; /* Viền xanh để đồng nhất */
+      border-radius: 5px;
+      font-size: 16px;
+      background-color: rgba(0, 116, 217, 0.1); /* Màu nền xanh nhạt, hòa hợp */
+      color: white;
+    }
+
+    input::placeholder {
+      color: rgba(255, 255, 255, 0.8); /* Giữ placeholder hài hòa */
+    }
+
+    .actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #0074D9;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #0056A3;
+    }
+
+    .forgot-password a {
+      text-decoration: none;
+      color: #0074D9;
+      font-size: 16px;
+      margin-left: 20px;
+    }
+
+    .forgot-password a:hover {
+      text-decoration: underline;
+      color: #0056A3;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login-container">
+    <div class="login-logo">
+      <img src="https://prnt.sc/0N3jLX8WxK4j" alt="Murkoff Corporation Logo">
+    </div>
+    <h2>WELCOME TO MURKOFF CORPORATION</h2>
+    <form>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <div class="actions">
+        <button type="submit">Login</button>
+        <div class="forgot-password">
+          <a href="#">Quên mật khẩu?</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
